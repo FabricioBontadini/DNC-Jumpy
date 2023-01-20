@@ -1,0 +1,86 @@
+body{
+    background: #1E1E1E;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+}
+header {
+    margin: 2.5% 0px 0px 2.5%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section img{
+    width: 25rem;
+    align-items: center;
+}
+
+form{
+    width: 600px;
+    align-items: center;
+    margin-top: 25px;
+}    
+
+.form-group{
+    text-align: left; 
+    font-size: 20px;
+    font-weight: 600;
+}
+
+Form input {
+    border-radius: 10px;
+    border: none;
+    height: 52px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    width: 100%;
+    margin-bottom: 24px; 
+    margin-top: 5px;
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 34px;
+    margin-top: 42px;
+}
+
+form input::placeholder {
+    color: #757474;
+    font-size: 14px;
+    padding: 12px;
+    
+}
+
+input[type="submit"] {
+    background-color:#0C70F2;
+    height: 56px;
+    margin-top: 16px;
+    width: 100%;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+}
+
+h6 {
+    font-size: 12px;
+    text-align:right;
+    color: red;
+    margin-top:-20px;
+    
+}    
+
+#sucesso{
+    font-size: 24px;
+    color: rgb(13, 182, 13);
+}
+#obrigatorio {
+    font-size: 24px;
+    text-align: right;
+    color: red;
+    margin-top: -20px;
+
+}

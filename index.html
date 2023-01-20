@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNC Jumpy</title>
+    <link rel="stylesheet" href=style.css>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="image/LogoDNC.png" alt="Logo Escola dnc Formado pelas letras D, N, C, todas em minusculo na cor branca e seta em tons de azuis no canto superior direito">
+    </header>
+    <section>
+        <img src="image/jumpy.png" alt="" >
+        <h1>Bem vindo ao Jumpy!</h1>
+        <form name="myForm" onsubmit="return validadeForm()" method="post">
+                    <div>
+                        <label>Nome Completo:</label> <br>
+                            <input id="name" type="text" name="fname" placeholder="Nome completo" >
+                            <h6 id="erroname" class="erroCampo"></h6>
+                            
+                    </div>
+
+                    <div class="form-group">
+                        <label>E-mail:</label><br>
+                        <input type="email" name="fmail" id="email" placeholder="Insira seu e-mail aqui">
+                        <h6 id="erroemail"  class="erroCampo"></h6> 
+                        <!-- <span id="erroemail"></span> -->
+                    </div>
+
+                    <div class="form-group">
+                        <label>Telefone:</label><br>
+                        <input type="tel" name="tel" placeholder="(99) 99999-9999">
+                        <h6 id="errotel"  class="erroCampo"></h6>
+                        <!-- <span id="erroemail"></span> -->
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>CPF:</label><br>
+                        <input type="number" name="cpf" placeholder="000.000.000-00">
+                        <h6 id="errocpf" class="erroCampo"></h6>
+                        
+                    </div>
+
+                    <div class="form-group">
+                        <label>Senha:</label><br>
+                        <input type="password" name="senha" placeholder="************">
+                        <h6 id="errosenha" class="erroCampo"></h6>
+                    </div> 
+                    
+
+                    <input type="submit" value="Cadastrar">
+                    <span id="sucesso"></span>
+                    <span id="obrigatorio"></span>
+                    </form>
+        </form>
+    </section>
+   <script src="script.js"></script>
+</body>
+</html>
